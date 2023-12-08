@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 10px 25px 5px;
+}
+
+header .logo{
+    border-radius: 5px;
+}
+
+header .nav-items{
+    display: flex;
+}
+
+header .nav-items a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+header .nav-items a:hover{
+    font-size: 1.05em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+main{
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+
+main .intro{
+    background-image: url("/Web Tech Project/Images/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+    height: 50vh;
+    margin: 10px 10px 20px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 10px;
+}
+
+main .intro button{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 20px 5px rgb(14, 14, 61);
+}
+
+main .webBLOCK{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+main .webBLOCK .blockA{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+main .webBLOCK .blockA h1{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main .pythonBLOCK{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+main .pythonBLOCK .blockB{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+main .pythonBLOCK .blockB h1{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:medium;
+}
+
+footer .content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+footer .links_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    gap: 20px;
+}
+
+footer .links_page a{
+    text-decoration: none;
+}
+
+footer .condition{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: larger;
+}
+
+footer .condition a{
+    text-decoration: none;
+}
+
+footer .links_social{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer .links_social a{
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+footer .copy{
+    padding-top: 20px;
+    font-size: large;
+}
+/*
+main .image_slider{
+    text-align: center;
+}
+
+main .manual_slider{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+main .manual_slider ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302f49;
+    padding: 40px 80px;
+    margin: 30px 5px 5px 5px;
+}*/
